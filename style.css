@@ -1,0 +1,45 @@
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 20vh;
+  padding: 10px;
+}
+header a{
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 0 35px;
+  color: black;
+}
+.section1{
+  height: 100vh;
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section1 .box{
+  width: 30%;
+  height: 40%;
+  background-color: gray;
+  border: 1px solid black;
+  margin: 0 25px;  
+}
+
+.about{
+  height: 100vh;
+  max-width: 70%;
+  background-color: blue;
+  margin: auto;
+}
+
+.proPic{
+  position: relative;
+  left: 80px;
+  top: 250px;
+  width: 350px;
+  height: 280px;
+  background-color: gray;
+  
+}
